@@ -6,6 +6,8 @@ class MarkStringEnds {
         String[] out = new String [2];
         
         //hello
+        
+        //hello one more time 
 
         String firstElement = originalString.substring(0,1);
         String firstElementUpp = firstElement.toUpperCase();
