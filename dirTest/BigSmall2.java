@@ -2,6 +2,8 @@ class MarkStringEnds {
     public static String[] markStringEnds(String originalString) {
         // write your code below this line
         String[] out = new String [2];
+        
+        //was typed on Git branch main
 
         String firstElement = originalString.substring(0,1);
         String firstElementUpp = firstElement.toUpperCase();
