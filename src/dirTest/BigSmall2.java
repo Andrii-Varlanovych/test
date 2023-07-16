@@ -1,5 +1,8 @@
 package dirTest;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 class MarkStringEnds {
     public static String[] markStringEnds(String originalString) {
         // write your code below this line
@@ -31,6 +34,6 @@ class BigSmall {
         String [] outMain;
 
         outMain = MarkStringEnds.markStringEnds(in);
-        System.out.println(outMain);
+        System.out.println("Array : " + Arrays.toString(outMain));
     }
 }
